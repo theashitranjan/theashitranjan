@@ -51,4 +51,4 @@ Hey there! I'm Prince Kumar, a tech enthusiast passionate about **IoT, AI, Web D
 - **GitHub:** [github.com/theashitranjan](https://github.com/theashitranjan)  
 - **LinkedIn:** [linkedin.com/in/theashitranjan](https://linkedin.com/in/theashitranjan)  
 - **Instagram:** _Coming Soon_  
-- **Portfolio:** _Coming Soon_  
+- **Portfolio:** [[github.com/theashitranjan](https://github.com/theashitranjan) ](https://theashitranjan.github.io/)  
