@@ -14,8 +14,8 @@ Hey there! I'm Prince Kumar, a tech enthusiast passionate about **IoT, AI, Web D
 ## 🔥 Skills  
 ### 🎯 **Tech Stack:**  
 - **Programming:** JavaScript, Python, C  
-- **Web Development:** MERN (MongoDB, Express.js, React.js, Node.js)  
-- **Machine Learning & AI:** OpenCV, Sklearn, YOLOv3  
+- **Web Development:** MERN (MongoDB, Express.js, React.js, Node.js), PHP, MySQL 
+- **Machine Learning & AI:** OpenCV, Sklearn, YOLOv3, keras, tensorflow 
 - **IoT & Hardware:** ESP32-CAM, Flex Sensors, Google Cloud, Blynk  
 - **Databases & Backend:** MySQL, Django, Firebase, Node.js  
 
