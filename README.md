@@ -22,18 +22,23 @@ Hey there! I'm Prince Kumar, a tech enthusiast passionate about **IoT, AI, Web D
 ### 🛠 **Tools & Platforms:**  
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)  
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)  
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)  
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=xampp&logoColor=white)  
+![Sublime Text](https://img.shields.io/badge/Sublime%20Text-FF9800?style=flat&logo=sublime-text&logoColor=white)  
+![Arduino IDE](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)  
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=anaconda&logoColor=white)  
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)  
+
 
 ---
 
 ## 📌 Featured Projects  
 ### 🏗 **1. Bridge Health Monitoring System**  
-🔹 **Tech:** ESP32, Flex Sensors, Blynk, Node.js  
+🔹 **Tech:** ESP32, Flex Sensors, Blynk
 🔹 **Description:** Monitors structural integrity using IoT & sends alerts for damage.  
 
 ### 📷 **2. AI-Powered ESP32-CAM for Audience Analytics**  
-🔹 **Tech:** OpenCV, YOLOv3, Google Cloud, Django  
+🔹 **Tech:** OpenCV, YOLOv3, haar cascade, Google Cloud, Django, Flask 
 🔹 **Description:** Captures and processes audience data for insights.  
 
 ### 🌍 **3. Find & Hire Contractors Web App**  
