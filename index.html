@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -46,12 +48,42 @@
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
             animation: fadeInUp 1.5s;
         }
-        .projects-container {
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .skill {
+            background: #50fa7b;
+            color: #1e1e2e;
+            padding: 12px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            .skills-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .skill {
+                width: 80%;
+                text-align: center;
+            }
+        }
+        .work-container, .projects-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
         }
-        .project {
+        .work-card, .project-card {
             background: #6272a4;
             padding: 20px;
             border-radius: 8px;
@@ -59,35 +91,17 @@
             text-align: center;
             transition: transform 0.3s;
         }
-        .project:hover {
+        .work-card:hover, .project-card:hover {
             transform: scale(1.05);
         }
-        .project h3 {
+        .work-card h3, .project-card h3 {
             color: #ffb86c;
-        }
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-        }
-        .skill {
-            background: #50fa7b;
-            color: #1e1e2e;
-            padding: 10px 15px;
-            border-radius: 8px;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #282a36;
-            color: #f8f8f2;
         }
         .social-icons {
             margin-top: 10px;
         }
         .social-icons a {
+            text-decoration: none;
             color: #f8f8f2;
             margin: 0 10px;
             font-size: 1.5em;
@@ -95,6 +109,12 @@
         }
         .social-icons a:hover {
             color: #50fa7b;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #282a36;
+            color: #f8f8f2;
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -115,6 +135,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#work">Work Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -140,11 +161,51 @@
         </div>
     </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>AI Camera System</h3>
+                <p>Developed an AI-powered ESP32-CAM for real-time object recognition and data streaming.</p>
+            </div>
+            <div class="project-card">
+                <h3>Bridge Health Monitoring</h3>
+                <p>Designed an IoT-based system using flex sensors to monitor structural integrity.</p>
+            </div>
+            <div class="project-card">
+                <h3>Hire a Contractor</h3>
+                <p>Built a web application to connect people with the nearest contractors.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <div class="work-container">
+            <div class="work-card">
+                <h3>Intern - IoT Solutions</h3>
+                <p>Worked on developing AI-powered IoT applications using ESP32 and cloud platforms.</p>
+            </div>
+            <div class="work-card">
+                <h3>Web Developer - Freelance</h3>
+                <p>Designed and deployed full-stack applications using the MERN stack and Django.</p>
+            </div>
+            <div class="work-card">
+                <h3>Research Assistant - AI & IoT</h3>
+                <p>Explored smart systems for real-time monitoring and automation in industrial settings.</p>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <h2>Contact</h2>
         <p><i class="fas fa-envelope"></i> Email: your.email@example.com</p>
-        <p><i class="fab fa-github"></i> <a href="https://github.com/theashitranjan">github.com/theashitranjan</a></p>
-        <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/theashitranjan">linkedin.com/in/theashitranjan</a></p>
+        <div class="social-icons">
+            <a href="https://x.com/theashitranjan" class="fab fa-twitter"></a>
+            <a href="https://facebook.com/theashitranjan" class="fab fa-facebook"></a>
+            <a href="https://linkedin.com/in/theashitranjan" class="fab fa-linkedin"></a>
+            <a href="https://github.com/theashitranjan" class="fab fa-github"></a>
+        </div>
     </section>
 
     <footer>
@@ -153,6 +214,7 @@
             <a href="https://x.com/theashitranjan" class="fab fa-twitter"></a>
             <a href="https://facebook.com/theashitranjan" class="fab fa-facebook"></a>
             <a href="https://linkedin.com/in/theashitranjan" class="fab fa-linkedin"></a>
+            <a href="https://github.com/theashitranjan" class="fab fa-github"></a>
         </div>
     </footer>
 </body>
